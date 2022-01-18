@@ -87,6 +87,7 @@ with open('translate.tsv', 'r', encoding='utf-8') as f:
 
 lines = []
 regexp = re.compile(r'Description\("(.*?)"\)')
+regexp1 = re.compile(r'ToolTip\("(.*?)"\)')
 regexp_space = re.compile(r'''(?<![()\[\]{}%'"A-Za-z]) (?![()\[\]{}%'"A-Za-z])''')
 
 with open('hk-split-maker/src/asset/hollowknight/splits.txt', 'r', encoding='utf-8') as f:
@@ -94,6 +95,11 @@ with open('hk-split-maker/src/asset/hollowknight/splits.txt', 'r', encoding='utf
         line = f.readline()
         if line:
             result = regexp.search(line)
+            if result:
+                a = result.group(1)
+                b = regexp_space.sub('', trie.replace_all(a))
+                line = line.replace(a, b, 1)
+            result = regexp1.search(line)
             if result:
                 a = result.group(1)
                 b = regexp_space.sub('', trie.replace_all(a))
