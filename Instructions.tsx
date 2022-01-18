@@ -4,8 +4,10 @@ const Instructions: React.FC = () => {
   return (
     <div id="instructions">
       <h2>声明</h2>
-      本网页是在<a href="https://hksplitmaker.com/" target="_self" rel="external">原英文版网页</a>的基础上进行了汉化。
-      请大家对<a href="https://hksplitmaker.com/" target="_self" rel="external">原英文版网页</a>多多支持。
+      <div className="centered">
+		本网页是在<a href="https://hksplitmaker.com/" target="_self" rel="external">原英文版网页</a>的基础上进行了汉化。
+		请大家对<a href="https://hksplitmaker.com/" target="_self" rel="external">原英文版网页</a>多多支持。
+      </div>
       <h2>使用方法</h2>
       <ol>
         <li>选择一个模板。</li>
