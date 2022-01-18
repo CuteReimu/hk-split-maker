@@ -30,7 +30,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Localize
-      run: python3 main.py
+      run: |
+        python3 main.py
+        cp -vf Instructions.tsx hk-split-maker/src/components
     - name: Build
       run: |
         cd hk-split-maker

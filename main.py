@@ -92,3 +92,27 @@ with open('hk-split-maker/src/asset/hollowknight/splits.txt', 'r', encoding='utf
 
 with open('hk-split-maker/src/asset/hollowknight/splits.txt', 'w', encoding='utf-8') as f:
     f.writelines(lines)
+
+with open('hk-split-maker/src/components/App.tsx', 'r', encoding='utf-8') as f:
+    content = f.read()
+    content = content.replace('<h2>Input config JSON</h2>', '<h2>输入配置JSON</h2>')
+    content = content.replace('<h2>Output Splits File</h2>', '<h2>输出Splits文件</h2>')
+    content = content.replace('text="Generate"', 'text="生成"')
+    content = content.replace('text="Download"', 'text="下载"')
+
+with open('hk-split-maker/src/components/App.tsx', 'w', encoding='utf-8') as f:
+    f.write(content)
+
+with open('hk-split-maker/src/components/CategorySelect.tsx', 'r', encoding='utf-8') as f:
+    content = f.read()
+    content = content.replace('"Pre-made Category: Select or type to search..."', '"选择预设模板..."')
+
+with open('hk-split-maker/src/components/CategorySelect.tsx', 'w', encoding='utf-8') as f:
+    f.write(content)
+
+with open('hk-split-maker/src/components/SplitSelect.tsx', 'r', encoding='utf-8') as f:
+    content = f.read()
+    content = content.replace('"Add autosplit: Select or type to search..."', '"增加片段..."')
+
+with open('hk-split-maker/src/components/SplitSelect.tsx', 'w', encoding='utf-8') as f:
+    f.write(content)
