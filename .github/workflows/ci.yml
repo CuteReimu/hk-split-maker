@@ -45,3 +45,5 @@ jobs:
       with: 
         branch: gh-pages
         folder: hk-split-maker/dist
+        git-config-name: 'github-actions[bot]'
+        git-config-email: '41898282+github-actions[bot]@users.noreply.github.com'

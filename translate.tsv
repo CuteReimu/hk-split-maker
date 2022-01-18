@@ -1,8 +1,7 @@
 ﻿EN	CN
-Greenpath	苍绿之径
 Abyss	深渊
 Shriek	尖啸
-(Skill)	（技能）
+Skill	技能
 Crystal Heart	水晶之心
 Crystal	水晶
 Crystal Peaks	水晶山峰
@@ -18,10 +17,9 @@ Dash	冲刺
 Great Slash	强力劈砍
 Howling Wraiths	嚎叫幽灵
 Tram Pass	电车票
-(Item)	（物品）
+Item	物品
 Mask	面具
 Fragment	碎片
-(Fragment)	（碎片）
 Nail	骨钉
 Vessel	容器
 Isma's	伊思玛的
@@ -38,18 +36,18 @@ Vengeful Spirit	复仇之魂
 Pale	苍白
 Ore	矿石
 Any	任意
+Any%	Any%
 Simple	简单
 Key - First	钥匙-第一把
 Key	钥匙
 City Crest	城市纹章
 Mr. Mushroom	蘑菇先生
-(Spot)	（地点）
+Spot	地点
 City Of Tears	泪水之城
 Colosseum	斗兽场
-(Area)	（出现标题文字）
-White Palace - Workshop (Area)	白色宫殿-工作室（区域）
+White Palace - Workshop	白色宫殿-工作室
 NKG Dream	梦魇之王格林梦境
-(Transition)	（切换场景）
+Transition	切换场景
 Crest	纹章
 Dream Wielder	舞梦者
 Delicate Flower	娇嫩的花
@@ -64,7 +62,7 @@ Love Key	爱之钥
 Lumafly Lantern	光蝇灯笼
 Lurker	潜伏者
 Shopkeeper's	店主的
-(Upgrade)	（升级）
+Upgrade	升级
 Broken Vessel	残破容器
 Brooding	躁欲的
 Mawlek	毛里克
@@ -72,10 +70,11 @@ Collector	收藏家
 Guardian	守卫
 Dung	粪虫
 Defender	防御者
-Dung Defender Idol (Trinket)	粪虫防御者国王神像（装饰品）
+Dung Defender Idol	粪虫防御者国王神像
+Trinket	装饰品
 Elder Hu	胡长老
-(Essence)	（精华）
-(Boss)	（Boss）
+Essence	精华
+Boss	Boss
 False	假
 Knight	骑士
 Hollow	空洞
@@ -125,10 +124,9 @@ Watcher	守望者
 White	白色
 Xero	泽若
 Vengefly King	反击蝇之王
-(Pantheon)	（万神殿）
 Enraged	暴怒
 Grub	幼虫
-(Dreamer)	（守梦者）
+Dreamer	守梦者
 Herrah the Beast	野兽赫拉
 Lurien the Watcher	守望者卢瑞恩
 Monomon the Teacher	教师莫诺蒙
@@ -136,7 +134,7 @@ First Dreamer	第一位守梦者
 Second Dreamer	第二位守梦者
 Third Dreamer	第三位守梦者
 Pre-Grimm Shop	格林前购物
-(Event)	（事件）
+Event	事件
 Sly	斯莱
 Final Shop	最终购物
 Can Overcharm	解锁过载
@@ -145,7 +143,7 @@ Chandelier	吊灯
 Knights	骑士
 City Gate	泪水之城大门
 Death	死亡
-Ending (Event)	结束（全成就速通重开用）
+Ending	结局
 Flower Quest	送花任务
 Reward	奖励
 Happy Couple	幸福的夫妇
@@ -161,15 +159,14 @@ Trap	陷阱
 Beasts	野兽
 Den	巢穴
 Unlocked	解锁
-Colosseum Fight	斗兽场完成
-Pantheon	万神殿
-(Trial)	（试炼）
+Colosseum Fight	斗兽场战斗
+Trial	试炼
 Path of Pain	苦痛之路
-(Completed)	（完成）
+Completed	完成
 Aspid Hunter	阿司匹德猎手
 Aluba	阿鲁巴
-(Killed)	（击杀）
-(Mini Boss)	（遭遇战）
+Killed	击杀
+Mini Boss	遭遇战
 Husk Miner	米拉
 Great Hopper	大跳虫
 Gorgeous Husk	华丽躯壳
@@ -180,11 +177,10 @@ Twister	扭曲者
 Shrumal Ogre	拜年菇
 Rescued	营救
 Deepnest	深邃巢穴
-Killed	击杀
 Exit	离开
 Forgotten	遗忘的
 Crossroads	十字路
-(Stag Station)	（鹿角站）
+Stag Station	鹿角站
 Map	地图
 Queen's Station	王后驿站
 Queen's Garden	王后花园
@@ -201,11 +197,11 @@ Fog Canyon	雾之峡谷
 Fungal Wastes	真菌荒地
 Godhome	神居
 Infected	感染的
-Deepnest Spa (Area)	深邃巢穴温泉（区域）
+Deepnest Spa	深邃巢穴温泉
 Kingdom's Edge	王国边境
 Royal Waterways	皇家水道
-Teachers Archive (Area)	教师档案馆（区域）
-White Palace (Area)	白色宫殿（区域）
+Teachers Archive	教师档案馆
+White Palace	白色宫殿
 Overcharmed	过载
 w/	和
 QGA/Mound Entry	酸冲
@@ -224,7 +220,6 @@ Baldur Shell	巴德尔之壳
 Dashmaster	冲刺大师
 Deep Focus	深度聚集
 Dreamshield	梦之盾
-White Palace	白色宫殿
 Defenders	防御者
 Flukenest	吸虫之巢
 Fragile	易碎
@@ -266,8 +261,8 @@ Unbreakable Heart	坚固心脏
 Void Heart	虚空之心
 Wayward Compass	任性的指南针
 Weaversong	编织者之歌
-(Charm Notch)	（护符槽）
-(Charm)	（护符）
+Charm Notch	护符槽
+Charm	护符
 Salubra	萨鲁巴
 Lemm Shop	里姆商店对话
 Lemm - ACN	里姆全护符槽速通
@@ -284,8 +279,7 @@ Bretta	布蕾塔
 Brumm	布鲁姆
 Flame	火焰
 Little Fool	小愚人
-(NPC)	（NPC）
-(Flame)	（火焰）
+NPC	NPC
 Basin Dive	盆地下砸
 Basin Wings	盆地二段跳
 City Below Love Tower	爱之塔下
@@ -324,31 +318,24 @@ Crypts	地窖
 Waterways Center	皇家水道中间
 Waterways Hwurmps	皇家水道王国边境
 Waterways Isma	伊思玛
-Whispering Root (Ancestral Mound)	低语之根（祖先山丘）
-Whispering Root (City of Tears)	低语之根（泪水之城）
-Whispering Root (Crystal Peak)	低语之根（水晶山峰）
-Whispering Root (Deepnest)	低语之根（深邃巢穴）
-Whispering Root (Forgotten Crossroads)	低语之根（十字路）
-Whispering Root (Leg Eater)	低语之根（食腿者）
-Whispering Root (Mantis Village)	低语之根（螳螂村）
-Whispering Root (Greenpath)	低语之根（苍绿之径）
-Whispering Root (Hive)	低语之根（蜂巢）
-Whispering Root (Howling Cliffs)	低语之根（呼啸悬崖）
-Whispering Root (Kingdom's Edge)	低语之根（王国边境）
-Whispering Root (Queen's Gardens)	低语之根（王后花园）
-Whispering Root (Resting Grounds)	低语之根（安息之地）
-Whispering Root (Royal Waterways)	低语之根（皇家水道）
-Whispering Root (Spirits' Glade)	低语之根（灵魂沼地）
-(Toll)	（收费机）
+Area	区域
+Ancestral Mound	祖先山丘
+Crystal Peak	水晶山峰
+Forgotten Crossroads	十字路
+Leg Eater	食腿者
+Mantis Village	螳螂村
+Greenpath	苍绿之径
+Howling Cliffs	呼啸悬崖
+Spirits' Glade	灵魂沼地
+Toll	收费机
 Basin Bench	古老盆地椅子
 Tram Deepnest	深邃巢穴电车
-(Tram)	（电车）
-Lower Orb (Lever)	下层（点灯）
-Left Orb (Lever)	中层左（点灯）
-Right Orb (Lever)	中层右（点灯）
+Tram	电车
+Left Orb	中层左灯
+Right Orb	中层右灯
 Lower Entry	下层入口
 Lower Orb	下层灯
-(Room)	（房间）
+Room	房间
 Left Entry	中层左入口
 Left Midpoint	中层左中间
 Right Side Entry	中层右入口
@@ -362,16 +349,17 @@ Top Final Platforming	上层最后平台
 Throne Room	上层王座
 Atrium	中庭
 Path of Pain Room	苦痛之路进入房间
-Kingdom's Edge Acid (Dreamgate)	王国边境酸水旁放梦之门（梦之门）
+Kingdom's Edge Acid	王国边境酸水旁放梦之门
+Dreamgate	梦之门
 Encountered	遭遇
-(Practice)	（试炼）
+Practice	试炼
 Godhome Bench	万神殿离开椅子房间
 Godhome Lore Room	万神殿离开寻神者房间
-Pantheon 1-4 (Transition)	进入万神殿任意一到四（切换场景）
-Pantheon 5 (Transition)	进入万神殿五（切换场景）
-Main Menu (Menu)	回主菜单（菜单）
-Main Menu w/ Claw (Menu)	回主菜单有螳螂爪（菜单）
-Main Menu w/ Ghusk (Menu)	回主菜单击杀华丽躯壳后（菜单）
+Pantheon	万神殿
+Main Menu	回主菜单
+Main Menu w/ Claw	回主菜单有螳螂爪
+Main Menu w/ Ghusk	回主菜单击杀华丽躯壳后
+Menu	菜单
 Cornifer at Home	柯尼法在家
 All Seals	全部圣巢印章
 All Eggs	全部腐臭蛋
@@ -379,11 +367,9 @@ Sly Simple Key	斯莱商店的简单钥匙
 All Breakables	易碎护符全损坏
 All Unbreakables	坚固护符全获得
 Emilitia	艾米丽塔
-Map City of Tears	地图泪水之城
-Map Waterways	地图皇家水道
-Howling Cliffs	呼啸悬崖
+Waterways	皇家水道
 Dream Nail Marissa	梦之钉吸收玛丽莎
-(Obtain)	（获得）
+Obtain	获得
 Dream Nail Caelif and Fera	梦之钉吸收凯利福与菲拉
 Dream Nail Poggy	梦之钉吸收波奇
 Dream Nail Gravedigger	梦之钉吸收掘墓者
@@ -399,52 +385,54 @@ Rancid Egg	腐臭蛋
 Mask Shard	面具碎片
 Use Simple Key	使用简单钥匙
 Any Transition	任意切换场景
-Manual Split (Misc)	手动分段（其它）
-Round%	奥波路波%
-Zote%	左特%
+Manual Split	手动分段
+Misc	其它
+Round	奥波路波
 All Breakable Charms	全易碎护符
 Ghostbusters	鬼魂破坏者
 Godhome Ending	神居结局
 All Unbreakable Charms	全坚固护符
 Steel Soul	钢魂
-A1uba%	阿鲁巴一只%
+A1uba	阿鲁巴一只
 Vessel Fragments	容器碎片
-(9 Vessel Fragments)	（9容器碎片）
+9 Vessel Fragments	9容器碎片
 Worldsoul	世界之魂
 Cartographer	柯尼法在家
-Ending	结局
-Pantheon of the Master (P1)	万神殿1门
-Pantheon of the Artist (P2)	万神殿2门
-Pantheon of the Sage (P3)	万神殿3门
-Pantheon of the Knight (P4)	万神殿4门
-Pantheon of Hallownest (P5)	万神殿5门
-Fool%	愚人的试炼%
+P1	1门
+P2	2门
+P3	3门
+P4	4门
+P5	5门
+Pantheon of the Master	大师万神殿
+Pantheon of the Artist	艺术家万神殿
+Pantheon of the Sage	贤者万神殿
+Pantheon of the Knight	骑士万神殿
+Pantheon of Hallownest	圣巢万神殿
+Fool	愚人的试炼
 True	真
 Mask Shards	面具碎片
 Geo	吉欧
 ACN	全护符槽
 No Shop Charms	不在商店买护符
-Egg (21)	腐臭蛋21个
+Egg 21	腐臭蛋21个
 All Skills	全技能
 All Glitches	允许所有邪道
-Trial of the Warrior (colo1)	竞技场1
-Trial of the Conqueror (colo2)	竞技场2
-Trial of the Fool (colo3)	竞技场3
+colo1	斗兽场1
+colo2	斗兽场2
+colo3	斗兽场3
 Florist	花匠
-GPZ%	灰色王子左特%
-Hiveblood%	蜂巢之血%
+GPZ	灰色王子左特
 Current Patch	当前版本
 Eat Me Too	把我也吃了吧
-Lifeblood Core%	生命血核心%
 Witness	见证
-(Current Patch NMG)	（当前版本NMG）
+Current Patch NMG	当前版本NMG
 TE	真结局
-("Flukamoth")	（“吸虫”）
+Flukamoth	吸虫
 AB	全BOSS
 APB	全万神殿BOSS
-Any% (1.4.3.2) w/ Spore Shroom	Any%(1.4.3.2)蘑菇孢子路线
-(1.4+ Shriek)	（1.4+版本吼路线）
-Al2ba%	阿鲁巴两只%
+Any (1.4.3.2) w/ Spore Shroom	Any(1.4.3.2)蘑菇孢子路线
+1.4+ Shriek	1.4+版本吼路线
+Al2ba	阿鲁巴两只
 All Charm Notches	全护符槽
 All Keys	全钥匙
 All Stag Stations	全鹿角站
@@ -452,56 +440,40 @@ All Wanderer's Journals	全漫游者日记
 All Geo Chests	全吉欧堆
 All Whispering Roots	全低语之根
 Clawless	无螳螂爪
-Elderbug%	虫长者送花
-Great Hopper%	大跳虫%
-Grubsong%	幼虫之歌%
+Elderbug	虫长者送花
 Spelless	无法术
 Marissa Audience	玛丽莎的听众
-Marmu%	马尔穆%
-Myla%	米拉%
+Myla	米拉
 Myla's Revenge	米拉的报复
-NKG%	梦魇之王格林%
-NMG%	骨钉大师的荣耀%
-Nice%	69%
-Nosk%	诺斯克%
-Path of Pain%	苦痛之路%
-Save Myla (Dash Slash route)	拯救米拉（冲刺劈砍路线）
-Shriek%	深渊尖啸%
+NKG	梦魇之王格林
+NMG	骨钉大师的荣耀
+Save Myla Dash Slash route	拯救米拉冲刺劈砍路线
 Pantheon 5 Boss Order	在流程中按5门顺序击杀BOSS
-(Steel Soul)	（钢魂）
-Enraged Guardian%	暴怒守卫%
+Enraged Guardian	暴怒守卫
 Absolute Radiance	无上辐光
 Eternal Ordeal Unlocked	无尽折磨解锁
 Eternal Ordeal Achieved	无尽折磨完成
-Transition excluding Save State (Transition)	任意切换场景不含SaveState（切换场景）
+Transition excluding Save State Transition	任意切换场景不含SaveState切换场景
 Sanctum w/ Shade Soul	暗影之魂后进入圣所
 Mourner w/ Seer Ascended	先知升天后对话灰色哀悼者
 Greenpath w/ Unlocked Overcharm	过载进入苍绿之径
-Rescued Grub	营救幼虫
 Mask Fragment	面具碎片
 Vessel Fragment	容器碎片
-(Grub)	（幼虫）
 Pale Ore	苍白矿石
 Grimm Flame	格林火焰
-(Ore)	（矿石）
 Enter	进入
 Embrace the Void	拥抱虚空
-(Mask)	（面具）
 Spire	守望者的尖塔
 Watcher Spire	守望者的尖塔
 Basin	盆地
-Leg Eater	食腿者
 The Radiance	辐光
-City of Tears	泪水之城
 Black Egg Temple	黑卵圣殿
 Lake of Unn	乌恩之湖
-Mantis Village	螳螂村
 Teacher's Archive	教师档案馆
-Elegy%	蜕变挽歌%
-Egg (101)	腐臭蛋101个
+Elegy	蜕变挽歌
+Egg 101	腐臭蛋101个
 All Hallownest Seals	全圣巢印章
 All King's Idols	全国王神像
-Blessing%	祝福%
 Storerooms	城市仓库
 VF	容器碎片
 King's Station	国王驿站
@@ -546,8 +518,8 @@ Journal below Broken Bridge	断桥下方日记
 Journal at Kingdom's Edge Entrance	王国边境入口日记
 Journal at Camp Bench	帐篷日记
 Journal near Markoth	马科斯日记
-Hornet (Protector)	守护者大黄蜂
-Hornet (Sentinel)	岗哨大黄蜂
+Protector	守护者
+Sentinel	岗哨
 Crown	圣巢之巅
 Grubfather	虫爷爷
 Spike Grub	尖刺幼虫
@@ -557,9 +529,24 @@ Moss Knight Grub	苔藓骑士幼虫
 Cornifer Grub	柯尼法幼虫
 Acid Grub	酸水幼虫
 Bouncy Grub	弹跳幼虫
-Audience (manual split)	听众（手动分段）
-A1uba	阿鲁巴一只
+Audience manual split	听众手动分段
 Riding Stag	乘坐鹿角虫
 Saved Cloth	拯救阿布
-Essence	精华
 Crystal Mound Exit	结晶山丘离开
+Banishment	放逐
+Trial of the Fool	愚人的试炼
+Trial of the Conqueror	征服者的试炼
+Trial of the Warrior	勇士的试炼
+Aspid Arena	阿司匹德遭遇战
+Queen Fragment	王后的碎片
+King Fragment	国王的碎片
+THK Scream	空洞骑士战吼
+Stag	鹿角虫
+Enemy	敌人
+Whispering Root	低语之根
+Notch	护符槽
+Root	低语之根
+Lever	层
+Begin Colosseum Trials	开始斗兽场试炼
+All Bindings	四锁
+No Main Menu Storage	NMMS
