@@ -6,6 +6,8 @@ name: CI
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build-and-deploy:
@@ -30,17 +32,15 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Localize
-      run: |
-        python3 main.py
-        cp -vf Instructions.tsx hk-split-maker/src/components
+      run: sh translate.sh
     - name: Build
       run: |
         cd hk-split-maker
         npm ci
-        npm run lint
         npm run build-prod
         cd ..
     - name: Deploy to GitHub Pages
+      if: github.event_name == 'push'
       uses: JamesIves/github-pages-deploy-action@4.0.0
       with: 
         branch: gh-pages

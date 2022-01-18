@@ -116,3 +116,13 @@ with open('hk-split-maker/src/components/SplitSelect.tsx', 'r', encoding='utf-8'
 
 with open('hk-split-maker/src/components/SplitSelect.tsx', 'w', encoding='utf-8') as f:
     f.write(content)
+
+with open('hk-split-maker/src/components/AlertBanner.tsx', 'r', encoding='utf-8') as f:
+    content = f.read()
+    content = content.replace('Interested in contributing or suggesting ideas and splits? Check out the',
+                              '''如果您想要为汉化做贡献，欢迎前往
+      <a href="https://github.com/CuteReimu/hk-split-maker" target="_blank" rel="noopener noreferrer">
+      我们的汉化Github工程</a>。如果您想要为网页功能或原英文版网页做贡献，欢迎前往''')
+
+with open('hk-split-maker/src/components/AlertBanner.tsx', 'w', encoding='utf-8') as f:
+    f.write(content)
