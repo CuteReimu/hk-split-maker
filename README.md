@@ -35,7 +35,21 @@
 
 ![image](https://user-images.githubusercontent.com/77955264/150160711-93d77792-1d20-4918-8fc2-2f7ddbb627ab.png)
 
-8. 再次点击左上角的`Code`按钮，回到代码页，找到那一排
+8. 再次点击左上角的`Code`按钮，回到代码页。稍等一两分钟，刷新几次页面，等到这个小黄点变成绿勾后
+
+![image](https://user-images.githubusercontent.com/77955264/150162638-94b38f5d-a75e-4bf7-b4ae-656fcdf9c634.png)
+
+再稍等一两分钟，你会看到右下角的
+
+![image](https://user-images.githubusercontent.com/77955264/150162991-0659ac37-833b-4c22-9149-d4384fa3f8fe.png)
+
+点击这个github-pages。
+
+![image](https://user-images.githubusercontent.com/77955264/150163361-005f451f-3dbb-4cd0-8a7f-efbdd88e08a3.png)
+
+如果你看到最近的这个提交，是几分钟前(minutes ago)或者几秒钟前(seconds ago)，说明部署好了。点击右边的`View deployment`按钮可以预览你的更新（如果没有更新，可以按ctrl+F5强制刷新一下试试）。
+
+9. 确认无误后，再次回到你的代码页，找到那一排
   > This branch is up to date with Mrs4s:master.
 
-  点击右边的Contribute按钮，然后点击`Open pull request`按钮。随意输入一些合并信息，然后点击`Create pull request`按钮，就可以申请将你的仓库下的修改合并回这个仓库了。
+  点击右边的`Contribute`按钮，然后点击`Open pull request`按钮。随意输入一些合并信息，然后点击`Create pull request`按钮，就可以申请将你的仓库下的修改合并回这个仓库了。
