@@ -17,7 +17,7 @@ class RuneTrie:
         self.__root = RuneTrieNode()
 
     def put_if_absent(self, key: str, value) -> bool:
-        if not value:
+        if value is None:
             raise ValueError('cannot put a nil value')
         key = key.lower()
         node = self.__root
@@ -45,7 +45,7 @@ class RuneTrie:
             if n:
                 key += c
                 node = n
-                if node.value and (idx + 1 >= len(s) or s[idx + 1] in symbols):
+                if node.value is not None and (idx + 1 >= len(s) or s[idx + 1] in symbols):
                     node2 = node
                     key2 = key
             else:
@@ -79,9 +79,8 @@ with open('translate.tsv', 'r', encoding='utf-8') as f:
         line = f.readline().strip()
         if line:
             arr = line.split('\t')
-            if len(arr) >= 2:
-                if not trie.put_if_absent(arr[0], arr[1]):
-                    raise ValueError("repeat: " + line)
+            if not trie.put_if_absent(arr[0], arr[1] if len(arr) >= 2 else ''):
+                raise ValueError("repeat: " + line)
         else:
             break
 
