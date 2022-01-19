@@ -8,6 +8,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -41,9 +42,10 @@ jobs:
         cd ..
     - name: Deploy to GitHub Pages
       if: github.event_name == 'push'
-      uses: JamesIves/github-pages-deploy-action@4.0.0
+      uses: JamesIves/github-pages-deploy-action@v4.2.2
       with: 
         branch: gh-pages
         folder: hk-split-maker/dist
         git-config-name: 'github-actions[bot]'
         git-config-email: '41898282+github-actions[bot]@users.noreply.github.com'
+        single-commit: true
