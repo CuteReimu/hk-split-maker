@@ -29,13 +29,13 @@
 
 ![image](https://user-images.githubusercontent.com/77955264/150159712-36f3af43-22e0-4e27-a2cb-5d2a7c69e4d4.png)
 
-6. 在文件列表里找到`translate.tsv`并打开，点击右上角像笔一样的按钮，这个就是编辑按钮，然后你就可以编辑这个文件了。因为是在你自己的仓库里，所以你可以自由地编辑。英文和中文之间用tab隔开。但是如果你仅仅按tab键的话，Github会“贴心地”用几个空格代替你的tab，所以你可能需要使用复制粘贴的方法，把上面几行的tab复制下来。
+6. 在文件列表里找到`translate.tsv`并打开，点击右上角像笔一样的按钮，这个就是编辑按钮，然后你就可以编辑这个文件了。因为是在你自己的仓库里，所以你可以自由地编辑。英文和中文之间用tab隔开。但是如果你仅仅按tab键的话，Github会“贴心地”用几个空格代替你的tab，而这并不是我们想要的。所以你可以考虑把内容全部复制粘贴到自己电脑的文本编辑器下面，修改完成后再复制粘贴回来。
 
 7. 之后随意在下方输入一些提交信息，你就可以提交了。注意按照下图的选项：
 
 ![image](https://user-images.githubusercontent.com/77955264/150160711-93d77792-1d20-4918-8fc2-2f7ddbb627ab.png)
 
-8. 再次点击左上角的`Code`按钮，回到代码页。稍等一两分钟，刷新几次页面，等到这个小黄点变成绿勾后
+8. 再次点击左上角的`Code`按钮，回到**你自己仓库的**代码页。稍等一两分钟，刷新几次页面，等到这个小黄点变成绿勾后
 
 ![image](https://user-images.githubusercontent.com/77955264/150162638-94b38f5d-a75e-4bf7-b4ae-656fcdf9c634.png)
 
@@ -50,6 +50,6 @@
 如果你看到最近的这个提交，是几分钟前(minutes ago)或者几秒钟前(seconds ago)，说明部署好了。点击右边的`View deployment`按钮可以预览你的更新（如果没有更新，可以按ctrl+F5强制刷新一下试试）。
 
 9. 确认无误后，再次回到你的代码页，找到那一排
-  > This branch is up to date with Mrs4s:master.
+  > This branch is up to date with CuteReimu:master.
 
   点击右边的`Contribute`按钮，然后点击`Open pull request`按钮。随意输入一些合并信息，然后点击`Create pull request`按钮，就可以申请将你的仓库下的修改合并回这个仓库了。
