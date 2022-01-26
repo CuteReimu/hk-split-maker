@@ -1,6 +1,8 @@
 # hk-split-maker
 
-代码全部来源自[github.com/slaurent22/hk-split-maker](https://github.com/slaurent22/hk-split-maker)，本人将其进行了汉化
+代码全部来源自[github.com/slaurent22/hk-split-maker](https://github.com/slaurent22/hk-split-maker)，本人将其进行了汉化。
+
+联动项目：Golang编写的带有窗口界面的[CuteReimu/hksplitmaker](https://github.com/CuteReimu/hksplitmaker) （仅支持Windows系统）
 
 ## 如何为汉化做贡献
 
