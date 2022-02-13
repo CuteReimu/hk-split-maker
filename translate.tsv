@@ -213,7 +213,7 @@ King's Pass From Town	从德特茅斯进入国王山道
 Enter Any Dream	进入任意梦境
 Blue Lake	蓝湖
 Overcharm	过载
-Has Claw	获得螳螂爪
+Has Claw	获得螳螂爪后
 Waterways Manhole	皇家水道井口
 Entry	入口
 Baldur Shell	巴德尔之壳
@@ -501,7 +501,7 @@ Willoh Seal	维洛印章
 Sporg Seal	核弹菇印章
 Mantis Lords Seal	螳螂领主印章
 Deepnest Seal	深邃巢穴印章
-Frogs Seal	雾之峡谷印章
+Frogs Seal	王后花园青蛙房间印章
 Grubfather Seal	虫爷爷印章
 Salubra Charms	萨鲁巴护符槽
 Journal outside Greenpath Stag	苍绿鹿角站外日记
@@ -670,6 +670,6 @@ City Gate w/ Mantis Lords defeated	击败螳螂领主后进入泪城大门
 Credits Roll	滚动开发者名单
 Lift Opened	电梯解锁
 Entrance	进入
-Has Fireball	获得复仇之魂
-Has Descending Dark	获得黑暗降临
-excluding Save State	不包括SaveState
+Has Fireball	获得复仇之魂后
+Has Descending Dark	获得黑暗降临后
+excluding Save State	但不包括SaveState切换场景
