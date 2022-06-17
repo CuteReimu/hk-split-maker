@@ -37,7 +37,7 @@ jobs:
     - name: Build
       run: |
         cd hk-split-maker
-        npm ci
+        npm ci --legacy-peer-deps
         npm run build-prod
         cd ..
     - name: Deploy to GitHub Pages
