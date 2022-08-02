@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhk_split_maker=self.webpackChunkhk_split_maker||[]).push([[2486],{12486:e=>{e.exports=JSON.parse('{"categoryName":"Clawless Shade Cloak","splitIds":["VengefulSpirit","EnterGreenpath","MothwingCloak","KingdomsEdgeEntry","KingsBrand","ShadeCloak"],"ordered":true,"endTriggeringAutosplit":true,"gameName":"Hollow Knight Category Extensions"}')}}]);

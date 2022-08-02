@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhk_split_maker=self.webpackChunkhk_split_maker||[]).push([[4679],{94679:e=>{e.exports=JSON.parse('{"categoryName":"Randomizer TE","startTriggeringAutosplit":"RandoWake","splitIds":["HollowKnightDreamnail"],"ordered":true,"endTriggeringAutosplit":false,"endingSplit":{"name":"辐光","icon":"RadianceBoss"},"gameName":"Hollow Knight Mods"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhk_split_maker=self.webpackChunkhk_split_maker||[]).push([[5927],{15927:e=>{e.exports=JSON.parse('{"categoryName":"Nosk%","splitIds":["VengefulSpirit","EnterGreenpath","MothwingCloak","MantisClaw","DeepnestSpa","Nosk"],"ordered":true,"endTriggeringAutosplit":true,"gameName":"Hollow Knight Category Extensions"}')}}]);

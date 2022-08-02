@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhk_split_maker=self.webpackChunkhk_split_maker||[]).push([[7592],{27592:e=>{e.exports=JSON.parse('{"categoryName":"Menderbug%","splitIds":["KingsPass","MenderBug"],"ordered":true,"endTriggeringAutosplit":true,"gameName":"Hollow Knight"}')}}]);
