@@ -3,7 +3,7 @@ import os
 import re
 from pathlib import Path
 
-symbols = [' ', '(', ')', '[', ']', '-', '{', '}', '%', "'", '"']
+symbols = [' ', '(', ')', '[', ']', '-', '{', '}', '%', "'", '"', ',']
 
 
 class RuneTrieNode:
