@@ -18,8 +18,8 @@ jobs:
         run: |
           COMMIT_EMAIL=$(git log -1 --pretty=format:'%ae')
           COMMIT_USERNAME=$(git log -1 --pretty=format:'%an')
-          echo "COMMIT_EMAIL=$(git log -1 --pretty=format:'%ae')" >> "$GITHUB_OUTPUT"
-          echo "COMMIT_USERNAME=$(git log -1 --pretty=format:'%an')" >> "$GITHUB_OUTPUT"
+          echo "COMMIT_EMAIL=$(git log -1 --pretty=format:'%ae' translate.tsv)" >> "$GITHUB_OUTPUT"
+          echo "COMMIT_USERNAME=$(git log -1 --pretty=format:'%an' translate.tsv)" >> "$GITHUB_OUTPUT"
       - name: Run GitHub File Sync
         if: github.repository_owner == 'CuteReimu'
         uses: BetaHuhn/repo-file-sync-action@v1
