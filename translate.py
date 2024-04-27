@@ -73,12 +73,12 @@ class RuneTrie:
 
 trie = RuneTrie()
 
-with open('translate.tsv', 'r', encoding='utf-8') as f:
+with open('translate.csv', 'r', encoding='utf-8') as f:
     f.readline()
     while True:
         line = f.readline().strip()
         if line:
-            arr = line.split('\t')
+            arr = line.split(',')
             if not trie.put_if_absent(arr[0], arr[1] if len(arr) >= 2 else ''):
                 raise ValueError("repeat: " + line)
         else:
