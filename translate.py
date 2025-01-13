@@ -175,7 +175,7 @@ content = content.replace('''Interested in contributing or suggesting ideas and 
 content = content.replace('''Need help? Join the&nbsp;''',
                           '''如果您需要帮助，欢迎前往''')
 content = content.replace('''and check out #tech-support''',
-                          '''内的#tech-support频道''')
+                          '''内的#tech-support频道。''')
 file.write_text(content, 'utf-8')
 
 path = 'hk-split-maker/src/asset/hollowknight/categories'
