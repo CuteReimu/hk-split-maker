@@ -158,7 +158,8 @@ file.write_text(content, 'utf-8')
 
 file = Path('hk-split-maker/src/components/ShareButton.tsx')
 content = file.read_text('utf-8')
-content = content.replace('<span className="button-text">Share</span>', '<span className="button-text">分享</span>')
+content = content.replace('''<span className="button-text">Share</span>''',
+                          '''<span className="button-text">分享</span>''')
 file.write_text(content, 'utf-8')
 
 file = Path('hk-split-maker/src/components/CategorySelect.tsx')
