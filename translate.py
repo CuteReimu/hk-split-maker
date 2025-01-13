@@ -153,8 +153,12 @@ content = content.replace('<h2>Input Configuration</h2>', '<h2>输入配置</h2>
 content = content.replace('<h2>Output Splits File</h2>', '<h2>输出Splits文件</h2>')
 content = content.replace('text="Generate"', 'text="生成"')
 content = content.replace('text="Download"', 'text="下载"')
-content = content.replace('text="Share"', 'text="分享"')
 content = content.replace('text="Import Splits"', 'text="导入Splits"')
+file.write_text(content, 'utf-8')
+
+file = Path('hk-split-maker/src/components/ShareButton.tsx')
+content = file.read_text('utf-8')
+content = content.replace('<span className="button-text">Share</span>', '<span className="button-text">分享</span>')
 file.write_text(content, 'utf-8')
 
 file = Path('hk-split-maker/src/components/CategorySelect.tsx')
