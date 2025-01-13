@@ -172,6 +172,10 @@ content = content.replace('''Interested in contributing or suggesting ideas and 
                           '''如果您想要为汉化做贡献，欢迎前往
       <a href="https://github.com/CuteReimu/hk-split-maker" target="_blank" rel="noopener noreferrer">
       我们的汉化Github工程</a>。如果您想要为网页功能或原英文版网页做贡献，欢迎前往''')
+content = content.replace('''Need help? Join the&nbsp;''',
+                          '''如果您需要帮助，欢迎前往''')
+content = content.replace('''and check out #tech-support''',
+                          '''内的#tech-support频道''')
 file.write_text(content, 'utf-8')
 
 path = 'hk-split-maker/src/asset/hollowknight/categories'
