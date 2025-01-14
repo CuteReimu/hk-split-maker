@@ -149,10 +149,17 @@ with open('hk-split-maker/src/lib/hollowknight-splits.ts', 'w', encoding='utf-8'
 
 file = Path('hk-split-maker/src/components/App.tsx')
 content = file.read_text('utf-8')
-content = content.replace('<h2>Input config JSON</h2>', '<h2>输入配置JSON</h2>')
+content = content.replace('<h2>Input Configuration</h2>', '<h2>输入配置</h2>')
 content = content.replace('<h2>Output Splits File</h2>', '<h2>输出Splits文件</h2>')
 content = content.replace('text="Generate"', 'text="生成"')
 content = content.replace('text="Download"', 'text="下载"')
+content = content.replace('text="Import Splits"', 'text="导入Splits"')
+file.write_text(content, 'utf-8')
+
+file = Path('hk-split-maker/src/components/ShareButton.tsx')
+content = file.read_text('utf-8')
+content = content.replace('''<span className="button-text">Share</span>''',
+                          '''<span className="button-text">分享</span>''')
 file.write_text(content, 'utf-8')
 
 file = Path('hk-split-maker/src/components/CategorySelect.tsx')
@@ -172,6 +179,10 @@ content = content.replace('''Interested in contributing or suggesting ideas and 
                           '''如果您想要为汉化做贡献，欢迎前往
       <a href="https://github.com/CuteReimu/hk-split-maker" target="_blank" rel="noopener noreferrer">
       我们的汉化Github工程</a>。如果您想要为网页功能或原英文版网页做贡献，欢迎前往''')
+content = content.replace('''Need help? Join the&nbsp;''',
+                          '''如果您需要帮助，欢迎前往''')
+content = content.replace('''and check out #tech-support''',
+                          '''内的#tech-support频道。''')
 file.write_text(content, 'utf-8')
 
 path = 'hk-split-maker/src/asset/hollowknight/categories'
